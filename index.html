@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marc Gallego - Portafolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <!-- AOS Animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+  <!-- Hero / Intro -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4 animate-fade-in" data-aos="fade-down">Marc Gallego</h1>
+    <p class="text-xl md:text-2xl mb-8 animate-fade-in delay-200" data-aos="fade-up">Programador & YouTuber</p>
+    <a href="https://www.youtube.com/@marcgallego23" target="_blank" class="px-8 py-4 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition transform hover:scale-105 flex items-center gap-2" data-aos="zoom-in">
+      <i class="fab fa-youtube"></i> Mi canal
+    </a>
+  </section>
+
+  <!-- Footer minimal -->
+  <footer class="py-8 flex justify-center items-center gap-4">
+    <span>&copy; 2026 Marc Gallego</span>
+    <a href="https://www.youtube.com/@marcgallego23" target="_blank" class="text-red-600 hover:scale-110 transition">
+      <i class="fab fa-youtube fa-lg"></i>
+    </a>
+  </footer>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-in-out',
+    });
+  </script>
+</body>
+</html>
